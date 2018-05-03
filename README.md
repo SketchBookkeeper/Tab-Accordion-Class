@@ -1,2 +1,2 @@
-# tabby cat js
+# Tab Accordion Class
 Lets make tabs
