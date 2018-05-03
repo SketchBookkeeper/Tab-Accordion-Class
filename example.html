@@ -1,0 +1,56 @@
+<div class="c-tab-accordion contact-page js-contact-tabs js-tabs">
+	<nav class="c-tab-accordion__tab-menu">
+		<ul class="g-l-wrapper">
+			<li class="c-tab-accordion__tab-menu-item">
+				<a href="#contact" class="c-tab-accordion__button js-tab-accordion-button" aria-haspopup="true" aria-expanded="true" tabindex="0"><?php esc_html_e( 'Contact Us', 'base' ); ?></a>
+			</li>
+
+			<li class="c-tab-accordion__tab-menu-item">
+				<a href="#locations" class="c-tab-accordion__button js-tab-accordion-button" aria-haspopup="true" aria-expanded="false" tabindex="0"><?php esc_html_e( 'Locations & Hours', 'base' ); ?></a>
+			</li>
+
+			<li class="c-tab-accordion__tab-menu-item">
+				<a href="#branches" class="c-tab-accordion__button js-tab-accordion-button" aria-haspopup="true" aria-expanded="false" tabindex="0"><?php esc_html_e( 'Shared Branches & ATMs', 'base' ); ?></a>
+			</li>
+		</ul>
+	</nav>
+
+	<ul>
+		<li class="c-tab-accordion__item">
+			<a href="#contact" class="c-tab-accordion__button c-tab-accordion__button--accordion js-tab-accordion-button" aria-haspopup="true" aria-expanded="false" tabindex="0">
+				Contact
+				<span class="c-tab-accordion__trigger" aria-hidden="true"></span>
+			</a>
+
+			<div id="contact" class="c-tab-accordion__content js-tab-accordion-content">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum praesentium quasi mollitia.
+			</div>
+		</li>
+
+		<li class="c-tab-accordion__item">
+			<a href="#locations" class="c-tab-accordion__button c-tab-accordion__button--accordion js-tab-accordion-button " aria-haspopup="true" aria-expanded="true" tabindex="0">
+				Locations
+				<span class="c-tab-accordion__trigger" aria-hidden="true"></span>
+			</a>
+
+			<div id="locations" class="c-tab-accordion__content js-tab-accordion-content">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quia ullam pariatur ab quasi eius commodi esse et libero eveniet dolorem voluptates, excepturi, quis exercitationem corrupti officiis culpa temporibus voluptatum!
+			</div>
+		</li>
+
+		<li class="c-tab-accordion__item">
+			<a href="#branches" class="c-tab-accordion__button c-tab-accordion__button--accordion js-tab-accordion-button" aria-haspopup="true" aria-expanded="false" tabindex="0">
+				Branches
+				<span class="c-tab-accordion__trigger" aria-hidden="true"></span>
+			</a>
+
+			<div id="branches" class="c-tab-accordion__content js-tab-accordion-content">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, facilis. Magni ratione commodi, quis nesciunt perspiciatis officia deserunt beatae totam quos quia obcaecati iste in tenetur modi non natus sint.
+			</div>
+		</li>
+	</ul>
+</div>
+
+<script>
+	new TabAccordion('.js-contact-tabs, .js-tabs', '.js-tab-accordion-button', '.js-tab-accordion-content', false, true, true, true);
+</script>
